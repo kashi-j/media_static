@@ -1,0 +1,140 @@
+#the-list{
+
+}
+#the-list tr:hover{
+    background:#fff4ec;
+}
+
+.cflag.on{
+    background: #0073aa;
+    display: block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 15px;
+    top: 0;
+}
+.cflag.on::before{
+    content:'✔';
+    color:#fff;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.cflag.off{
+    display: block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 15px;
+    top: 0;
+}
+.cflag.off::before{
+    content: '✖';
+    color: #d82929;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*===========================
+*
+*page_seo_setting
+*
+===========================*/
+#page_seo_setting {
+    
+}
+#page_seo_setting .setting_field{
+    padding:20px;
+}
+
+#page_seo_setting .setting_field label{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    margin:40px auto;
+}
+#page_seo_setting .setting_field label h3{
+    width:40%;
+    margin:0;
+}
+#page_seo_setting .setting_field label input,
+#page_seo_setting .setting_field label textarea{
+    margin:0;
+    margin-left:2%;
+}
+#page_seo_setting .setting_field label input[type="text"],
+#page_seo_setting .setting_field label textarea{
+    width:58%;
+    padding:10px;
+    font-size:16px;
+}
+#page_seo_setting .setting_field label input[type="checkbox"],
+#taxonomy_seo_setting .setting_field label input[type="checkbox"]{
+    width:20px;
+    height:20px;
+}
+#page_seo_setting .setting_field label input[type="checkbox"]:checked,
+#taxonomy_seo_setting .setting_field label input[type="checkbox"]:checked{
+    border:1px solid #0073aa;
+}
+#page_seo_setting .setting_field label input[type="checkbox"]:checked::before,
+#taxonomy_seo_setting .setting_field label input[type="checkbox"]:checked::before{
+    content:'✔';
+    margin:0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #0073aa;
+}
+
+#taxonomy_seo_setting .setting_field {
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#taxonomy_seo_setting .setting_field .title {
+    font-size: 14px;
+    border-bottom: 1px solid #ccd0d4;
+    padding: 10px 5px;
+}
+#taxonomy_seo_setting .setting_field .inside {
+    padding: 20px;
+}
+#taxonomy_seo_setting .setting_field label{
+    display: block;
+    margin:10px auto;
+}
+#taxonomy_seo_setting .setting_field label h3{
+    width:100%;
+    font-size:1em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+#taxonomy_seo_setting .setting_field label input,
+#taxonomy_seo_setting .setting_field label textarea{
+    margin-left:0;
+}
+#taxonomy_seo_setting .setting_field label input[type="text"],
+#taxonomy_seo_setting .setting_field label textarea {
+    width: 100%;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+.form-table th .title{
+    font-size: 18px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}

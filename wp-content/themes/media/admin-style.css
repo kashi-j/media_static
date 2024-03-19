@@ -1,0 +1,93 @@
+body.post-type-popular_keyword li.select2-selection__choice {
+  padding: 10px!important;
+}
+body.post-type-popular_keyword ul.select2-results__options {
+  padding: 5px;
+}
+body.post-type-popular_keyword li.select2-results__option {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+body.post-type-display_setting .acf-relationship .list {
+  height: 1100px;
+}
+body.post-type-display_setting .acf-relationship .list .acf-rel-item .thumbnail {
+  width: 100px;
+  height: 100px;
+}
+body.post-type-display_setting .acf-relationship .list .acf-rel-item .thumbnail img {
+  max-width: 100px;
+  max-height: 100px;
+}
+body.post-type-display_setting .acf-relationship .list .acf-rel-label,
+body.post-type-display_setting .acf-relationship .list .acf-rel-item,
+body.post-type-display_setting .acf-relationship .list p {
+  min-height: 100px;
+  font-size: 16px;
+}
+body.post-type-display_setting .acf-relationship .list.values-list {
+  counter-reset: valueslistcount 0;
+}
+body.post-type-display_setting .acf-relationship .list.values-list span.acf-rel-item:before {
+  counter-increment: valueslistcount;
+  content: counter(valueslistcount);
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 20px;
+  height: 20px;
+  background: #666;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+
+
+body.post-type-feature .acf-relationship .list {
+  height: 1100px;
+}
+body.post-type-feature .acf-relationship .list .acf-rel-item .thumbnail {
+  width: 100px;
+  height: 100px;
+}
+body.post-type-feature .acf-relationship .list .acf-rel-item .thumbnail img {
+  max-width: 100px;
+  max-height: 100px;
+}
+body.post-type-feature .acf-relationship .list .acf-rel-label,
+body.post-type-feature .acf-relationship .list .acf-rel-item,
+body.post-type-feature .acf-relationship .list p {
+  min-height: 100px;
+  font-size: 16px;
+}
+body.post-type-feature .acf-relationship .list.values-list {
+  counter-reset: valueslistcount 0;
+}
+body.post-type-feature .acf-relationship .list.values-list span.acf-rel-item:before {
+  counter-increment: valueslistcount;
+  content: counter(valueslistcount);
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 20px;
+  height: 20px;
+  background: #666;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+
+/*
+body.toplevel_page_static-press #static-press {
+  display: none!important;
+}
+*/

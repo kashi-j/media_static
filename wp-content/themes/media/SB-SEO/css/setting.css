@@ -1,0 +1,202 @@
+*{
+  list-style: none;
+  padding:0;
+  margin:0;
+  outline:none;
+}
+ol,li{
+  padding:0;
+  margin:0;
+}
+
+/*=====================================
+*
+*全体設定
+*
+=====================================*/
+.seo_setting{
+  box-sizing: border-box;
+}
+.seo_setting *:focus{
+  outline:none;
+}
+.update_sitting{
+  margin:20px auto;
+}
+.update_sitting input{
+  background: #007cba;
+  border:none;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}
+article{
+  width: 100%;
+  max-width: 1200px;
+  background: #fff;
+  margin: 50px 0;
+  border: 1px solid #ccd0d4;
+  padding: 0 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.setting_area{
+  padding:25px;
+}
+.seo_setting h2 {
+  padding: 20px;
+  background: #fff;
+  border-bottom: 2px solid #119cec;
+  margin: 0 auto;
+}
+.setting_area label{
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap:wrap;
+  margin:40px auto;
+}
+.setting_area label .title {
+  display: flex;
+  width:30%;
+  position: relative;
+  align-items: center;
+}
+.setting_area label .title h3 {
+  font-size:16px;
+  margin: 0;
+}
+.setting_area label .title i {
+  margin-left:10px;
+}
+.setting_area label .title .help {
+  position: absolute;
+  top:60%;
+  padding:20px;
+  background:#fff;
+  border-radius:5px;
+  transition:ease all .3s;
+  opacity: 0;
+  pointer-events: none;
+  max-width:50%;
+  border:1px solid #ccc;
+  z-index: 2;
+}
+.setting_area label .title i:hover+.help,
+.setting_area label .title .help:hover {
+  opacity: 1;
+  pointer-events: all;
+}
+.setting_area label .text {
+  width:65%;
+}
+.setting_area label .text input[type="text"],
+.setting_area label .text textarea {
+  width:100%;
+}
+.setting_area label .desc{
+  margin-top:5px;
+}
+.setting_area label .desc span{
+  font-size:18px;
+  font-weight: bold;
+  display: inline-block;
+  margin:0 3px;
+}
+
+/*=====================================
+*
+*タイトル適用設定
+*
+=====================================*/
+.apply_setting{
+
+}
+.apply_setting .radio_setting{
+  padding:20px;
+}
+.apply_setting .radio_setting label{
+  margin-right:20px;
+}
+
+/*=====================================
+*
+*個別設定 ( 全体 )
+*
+=====================================*/
+.tab_select{
+  width:100%;
+}
+.tab_select ol{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  padding: 20px;
+}
+
+.tab_select ol li{
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 7px;
+  background: #fff;
+  transition: ease all .3s;
+  width: 22%;
+  display: block;
+  text-align: center;
+  margin:5px auto;
+}
+.tab_select ol li:hover{
+  background:#ccc;
+  border: 1px solid #ccc;
+  cursor:pointer;
+}
+.tab_select ol li.current {
+  color:#fff;
+  background: #333;
+}
+
+/*=====================================
+*
+*個別設定 ( 個別 )
+*
+=====================================*/
+.page_setting{
+
+}
+.page_setting .desc_text{
+  padding:0 20px;
+}
+.page_setting .setting_area{
+  display: none;
+}
+
+.page_setting .setting_area.current {
+  display: block;
+}
+/*=====================================
+*
+*noindex設定
+*
+=====================================*/
+.noindex_checkbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.noindex_checkbox label{
+  display: inline-block;
+}
+/*=====================================
+*
+*ogp設定
+*
+=====================================*/
+.ogp_checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ogp_checkbox label {
+  display: inline-block;
+}
